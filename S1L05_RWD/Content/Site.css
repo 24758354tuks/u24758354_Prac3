@@ -18,6 +18,8 @@ body {
     background-color: var(--light);
 }
 
+/*This will remove the carousel in screen sizes less than 700px. Use Chrome for optimal function. Click Ctrl + Shift + I to view the html configuration and to edit
+    the wep page size dimensions.*/
 @media (max-width: 700px) {
     .carousel {
         display: none;
